@@ -1,0 +1,43 @@
+@media screen and (max-width: 992px) {
+  .home-content {
+    margin-top: 3rem;
+  }
+
+  .animated-title {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  .home-content-description {
+    width: 100% !important;
+  }
+
+  .about .about-description .about-text {
+    width: 100%;
+  }
+
+  .services .services-description {
+    width: 80% !important;
+  }
+
+  #scrollToTop {
+    right: 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials :not(.col-md-4:first-child) {
+    margin-top: 1.5rem;
+  }
+
+  .works-list-item {
+    padding-left: 0.3125rem !important;
+    padding-right: 0.3125rem !important;
+  }
+
+  .works .nav-tabs .nav-item .nav-link {
+    margin: 0 0.125rem;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+  }
+}

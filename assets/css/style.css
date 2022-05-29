@@ -1,0 +1,471 @@
+/* Public CSS*/
+
+/* Using Nunito font family*/
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+:root {
+  --font_title: "Montserrat", sans-serif;
+  --font_description: Nunito, "Montserrat", sans-serif;
+  --colorPink: #e65f78;
+  --colorGrey: rgba(255, 255, 255, 0.749);
+  --bgSelection: rgba(166, 175, 189, 0.3);
+  --bgHover: #aa2d44;
+}
+
+.font-title {
+  font-family: var(--font_title);
+}
+
+.font-description {
+  font-family: var(--font_description);
+}
+
+.text-main {
+  color: var(--colorPink);
+}
+
+.bg-main {
+  background-color: var(--bgHover) !important;
+}
+
+.transition-fast {
+  transition-duration: 0.35s;
+}
+
+::selection {
+  background: var(--bgSelection) !important;
+}
+
+body {
+  font-family: var(--font_description);
+  height: 5000px;
+}
+
+section {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.btn-main {
+  background: var(--colorPink);
+  border-color: var(--colorPink);
+}
+
+.btn-main:hover {
+  background-color: var(--bgHover);
+}
+
+#scrollToTop {
+  opacity: 0;
+  z-index: 9999999999;
+  transition: 0.3s;
+  bottom: 3%;
+  right: 1%;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+}
+
+#scrollToTop i {
+  animation: scrollTop 0.5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes scrollTop {
+  0% {
+    opacity: 0.5;
+    transform: translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+}
+
+/* start navbar */
+
+nav#nav {
+  z-index: 99999;
+}
+
+.navbar-dark .navbar-nav .nav-item,
+.navbar-light .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link,
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.75;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--colorPink) !important;
+}
+
+/* end navbar */
+
+/* start header */
+
+.home {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home .home-content {
+  z-index: 9999;
+}
+
+.home .home-content .home-content-title {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.home .home-content .animated-title {
+  height: 30px;
+}
+
+/* this was a hardcoded animation instead of typed.js
+.home .home-content .animated-title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: typingAnimation 4s ease-in-out infinite alternate;
+} */
+
+.home .home-content .home-content-description {
+  font-size: 16px;
+  color: var(--colorGrey);
+}
+
+.home .home-content .btn-home {
+  border: 2px solid #fff;
+  transition-property: color, background-color, border-color;
+}
+
+.home .home-content .btn-home:hover {
+  color: #fff;
+  background-color: var(--colorPink);
+  border-color: var(--colorPink);
+}
+
+.home .home-content .scroll-down {
+  width: 35px;
+  height: 50px;
+}
+
+.home .home-content .scroll-down .dot {
+  animation: scrollDown 0.5s ease-in-out 0s infinite alternate;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+}
+
+/* Scroll down link animation */
+
+@keyframes scrollDown {
+  0% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Typing animation- Hardcoded */
+/* @keyframes typingAnimation {
+  0% {
+    content: "I am";
+  }
+
+  5% {
+    content: "I am moha |";
+  }
+
+  10% {
+    content: "I am mo |";
+  }
+
+  15% {
+    content: "I am moham |";
+  }
+
+  20% {
+    content: "I am mohammad |";
+  }
+
+  25% {
+    content: "I am |";
+  }
+
+  30% {
+    content: "I am fr |";
+  }
+
+  35% {
+    content: "I am front |";
+  }
+
+  40% {
+    content: "I am fro |";
+  }
+
+  45% {
+    content: "I am front-end |";
+  }
+
+  50% {
+    content: "I am front-e |";
+  }
+
+  55% {
+    content: "I am front |";
+  }
+
+  60% {
+    content: "I am gra |";
+  }
+
+  65% {
+    content: "I am graphic |";
+  }
+
+  70% {
+    content: "I am graph |";
+  }
+
+  75% {
+    content: "I am graphic de |";
+  }
+
+  80% {
+    content: "I am graphic design |";
+  }
+
+  85% {
+    content: "I am graphic designer |";
+  }
+
+  90% {
+    content: "I am graphic des |";
+  }
+
+  95% {
+    content: "I am grap |";
+  }
+
+  100% {
+    content: "I am |";
+  }
+} */
+
+/* end header */
+
+/* start about */
+
+.about-description .about-text {
+  line-height: 1.92 !important;
+}
+
+.about .about-description .about-title {
+  font-weight: 500;
+}
+
+.about .about-description .about-text {
+  width: 85%;
+  font-size: 16px;
+}
+
+.about .about-description .social-media-link {
+  width: 40px;
+  height: 40px;
+  line-height: 38px !important;
+  cursor: pointer;
+}
+
+.about .about-description .social-media-link:hover {
+  border-color: var(--colorPink) !important;
+}
+
+.about .about-description .social-media-link a i {
+  font-weight: 500;
+}
+
+.about .about-description .social-media-link:hover a i {
+  color: var(--colorPink) !important;
+}
+/* end about */
+
+/* start services */
+
+.services .service {
+  border-color: #eee !important;
+}
+
+.services .service .service-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.services .service .service-title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: var(--colorPink);
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: width 0.5s;
+}
+
+.services .service:hover .service-title:after {
+  width: 60px;
+}
+
+.services .service .service-icon {
+  font-size: 40px;
+}
+
+/* end services */
+
+/* start hire-me */
+
+.hire-me .hire-me-title {
+  font-weight: 500;
+}
+
+/* end hire-me */
+
+/* start testimonials */
+
+.testimonials .carousel-indicators {
+  bottom: -50px;
+}
+
+.testimonials .carousel-indicators [data-bs-target] {
+  background-color: var(--bgHover) !important;
+  border-radius: 30px !important;
+  border: none !important;
+  width: 20px !important;
+  height: 10px !important;
+  transition: 0.4s ease-in-out;
+}
+
+.testimonials .carousel-indicators button.active {
+  width: 30px !important;
+}
+
+/* end testimonials */
+
+/* start works */
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-item .nav-link {
+  border: 1px solid transparent;
+  margin: 0 5px;
+  color: #000;
+  border-radius: 5px;
+}
+
+.nav-tabs .nav-item .nav-link.active,
+.nav-tabs .nav-item .nav-link:hover {
+  border: 1px solid var(--colorPink);
+  background-color: var(--colorPink);
+  color: #fff;
+}
+
+.works-list .works-list-item.active,
+.works-list .works-list-item:hover {
+  background-color: var(--colorPink);
+}
+
+.works-list .works-list-item.active .works-list-link,
+.works-list .works-list-item:hover .works-list-link {
+  color: #fff !important;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item img {
+  object-fit: cover;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(100%);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.item:hover .overlay {
+  transform: translateY(0);
+}
+
+.overlay .overlay-description {
+  font-size: 14px;
+}
+
+/* end works */
+
+/* start blog */
+/* end blog */
+
+/* start contact */
+.form-control:focus {
+  border: 1px solid var(--colorPink) !important;
+  box-shadow: 0 0 0 0.1rem var(--colorPink) !important;
+}
+/* end contact */
+
+/* start footer */
+
+footer :is(p, a) {
+  color: var(--colorGrey);
+}
+
+footer ul li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+footer ul li:hover a {
+  color: var(--colorPink);
+}
+/* end footer */

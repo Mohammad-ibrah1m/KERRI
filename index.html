@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kerri</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+  <!-- Montserrat online font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Bootstrap v5.1 css link -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- FontAwesome v6.0 file -->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Responsive main CSS file -->
+  <link rel="stylesheet" href="assets/css/style-responsive.css" />
+</head>
+
+<body class="position-relative">
+  <!-- Scroll to top button -->
+  <button class="position-fixed btn-main d-flex rounded-circle text-center justify-content-center align-items-center"
+    id="scrollToTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Start navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="nav">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" alt="Kerri logo" class="w-50" draggable="false" id="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-capitalize transition-fast" aria-current="page" href="#home">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize transition-fast" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize transition-fast" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize transition-fast" href="#testimonials">testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize transition-fast" href="#works">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize transition-fast" href="#blog">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize transition-fast" href="#contact">contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+
+  <!-- Start header -->
+  <header class="vh-100 position-relative home text-white" id="home">
+    <div class="container-fluid">
+      <div
+        class="home-content bg-transparent text-center position-absolute top-50 start-50 translate-middle text-white">
+        <h1 class="home-content-title text-capitalize font-title mb-5">welcome</h1>
+        <h2 class="animated-title font-title text-uppercase position-relative fw-bold fs-1 user-select-none" id="typed">
+        </h2>
+        <p class="w-75 mx-auto home-content-description lh-lg mt-5">
+          It is a long established fact that a reader will be of a page when established fact looking at its layout.
+        </p>
+        <a href="assets/resume/Mohammad_Ibrahim.pdf"
+          class="btn btn-home rounded-pill py-2 px-4 my-3 text-capitalize text-white transition-fast mb-5"
+          download>download
+          <span class="text-uppercase">cv</span>
+        </a>
+        <a href="#about"
+          class="scroll-down border border-2 rounded-pill mx-auto my-3 bg-transparent d-block text-white text-decoration-none text-center">
+          <span class="d-inline-block rounded dot"></span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+  <!-- End header -->
+
+  <main>
+    <!-- Start about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <img src="assets/img/about.jpg" alt="A man wearing an orange beanie" class="about-img img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="about-description mt-2 mt-md-0">
+              <h2 class="about-title font-title text-capitalize fs-2"><span class="fw-bold">about</span> me</h2>
+              <h3 class="about-title text-capitalize fs-3 font-title mt-3">hello! <span class="text-main">i'm kerri
+                  deo</span></h3>
+              <p class="about-text text-muted mt-4">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+              <p class="about-text text-muted mt-2">The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like readable
+                English.</p>
+              <p class="about-text text-muted mt-2">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.
+              </p>
+              <ul class="social-media list-inline mt-4 mb-0">
+                <li
+                  class="social-media-link list-inline-item border border-2 rounded-circle text-center transition-fast">
+                  <a href="#" class="fw-bold text-black"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li
+                  class="social-media-link list-inline-item border border-2 rounded-circle text-center transition-fast">
+                  <a href="#" class="fw-bold text-black"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li
+                  class="social-media-link list-inline-item border border-2 rounded-circle text-center transition-fast">
+                  <a href="#" class="fw-bold text-black"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li
+                  class="social-media-link list-inline-item border border-2 rounded-circle text-center transition-fast">
+                  <a href="#" class="fw-bold text-black"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about -->
+
+    <!-- Start services -->
+    <section class="services text-center bg-light" id="services">
+      <h2 class="services-title font-title mb-3 text-capitalize">our <span class="fw-bold">services</span></h2>
+      <p class="services-description text-muted mb-5 mx-auto">It is a long established fact that a reader will be
+        of a page when established fact looking at its layout.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="service border border-2 py-3 rounded">
+              <h4 class="mt-2"><i class="fa-solid fa-paint-brush service-icon text-main"></i></h4>
+              <h3 class="service-title font-title text-capitalize position-relative mt-4">graphic design</h3>
+              <p class="text-muted mt-4 service-description w-75 mx-auto">
+                There are many variations of passages of but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service border border-2 py-3 rounded">
+              <h4 class="mt-2"><i class="fa-solid fa-palette service-icon text-main"></i></h4>
+              <h3 class="service-title font-title text-capitalize position-relative mt-4">unlimited color</h3>
+              <p class="text-muted mt-4 service-description w-75 mx-auto">
+                There are many variations of passages of but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service border border-2 py-3 rounded">
+              <h4 class="mt-2"><i class="fa-solid fa-person service-icon text-main"></i></h4>
+              <h3 class="service-title font-title text-capitalize position-relative mt-4">media marketing</h3>
+              <p class="text-muted mt-4 service-description w-75 mx-auto">
+                There are many variations of passages of but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service border border-2 py-3 rounded">
+              <h4 class="mt-2"><i class="fa-solid fa-wifi service-icon text-main"></i></h4>
+              <h3 class="service-title font-title text-capitalize position-relative mt-4">unlimited wifi</h3>
+              <p class="text-muted mt-4 service-description w-75 mx-auto">
+                There are many variations of passages of but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service border border-2 py-3 rounded">
+              <h4 class="mt-2"><i class="fa-solid fa-mobile-alt service-icon text-main"></i></h4>
+              <h3 class="service-title font-title text-capitalize position-relative mt-4">responsive design</h3>
+              <p class="text-muted mt-4 service-description w-75 mx-auto">
+                There are many variations of passages of but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="service border border-2 py-3 rounded">
+              <h4 class="mt-2"><i class="fa-solid fa-wand-magic-sparkles service-icon text-main"></i></h4>
+              <h3 class="service-title font-title text-capitalize position-relative mt-4">easy <span
+                  class="text-lowercase">to customize</span></h3>
+              <p class="text-muted mt-4 service-description w-75 mx-auto">
+                There are many variations of passages of but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End services -->
+
+    <!-- Start hire-me -->
+    <section class="hire-me text-center">
+      <div class="container">
+        <h2 class="hire-me-title text-capitalize font-title">i am available for freelance</h2>
+        <button class="hire-me-btn btn btn-main text-white mt-3 text-uppercase transition-fast">hire me</button>
+      </div>
+    </section>
+    <!-- End hire-me -->
+
+    <!-- Start testimonials -->
+    <section class="testimonials text-center bg-light" id="testimonials">
+      <div class="container">
+        <h2 class="testimonials-title text-capitalize font-title">our <span class="fw-bold">clients</span></h2>
+        <p class="testimonials-description text-muted mt-3 mb-5">
+          It is a long established fact that a reader will be of a page when established fact looking at its layout.
+        </p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div>
+                <i class="fa-solid fa-quote-left fs-1 text-main"></i>
+                <div class="client-image my-3">
+                  <img src="assets/img/testi-1.jpg" alt="client1" class="img-fluid rounded-circle">
+                </div>
+                <p class="testimonial-description text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla veritatis recusandae
+                  asperiores,
+                  facilis qui minus possimus .
+                </p>
+                <p class="client-name text-capitalize">ebony verty, <span class="fw-bold">envato</span></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <i class="fa-solid fa-quote-left fs-1 text-main"></i>
+                <div class="client-image my-3">
+                  <img src="assets/img/testi-2.jpg" alt="client2" class="img-fluid rounded-circle">
+                </div>
+                <p class="testimonial-description text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla veritatis recusandae
+                  asperiores,
+                  facilis qui minus possimus .
+                </p>
+                <p class="client-name text-capitalize">ebony verty, <span class="fw-bold">envato</span></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <i class="fa-solid fa-quote-left fs-1 text-main"></i>
+                <div class="client-image my-3">
+                  <img src="assets/img/testi-3.jpg" alt="client3" class="img-fluid rounded-circle">
+                </div>
+                <p class="testimonial-description text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla veritatis recusandae
+                  asperiores,
+                  facilis qui minus possimus .
+                </p>
+                <p class="client-name text-capitalize">ebony verty, <span class="fw-bold">envato</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End testimonials -->
+
+    <!-- Start works -->
+    <section class="works text-center" id="works">
+      <div class="container">
+        <h2 class="works-title text-capitalize font-title">our <span class="fw-bold">works</span></h2>
+        <p class="works-description text-muted mt-3 mb-5">
+          It is a long established fact that a reader will be of a page when established fact looking at its layout.
+        </p>
+        <nav>
+          <ul class="nav nav-tabs justify-content-center mb-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button"
+                role="tab" aria-controls="all" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo" type="button" role="tab"
+                aria-controls="seo" aria-selected="false">Seo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="webdesign-tab" data-bs-toggle="tab" data-bs-target="#webdesign" type="button"
+                role="tab" aria-controls="webdesign" aria-selected="false">WebDesign</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="wordpress-tab" data-bs-toggle="tab" data-bs-target="#wordpress" type="button"
+                role="tab" aria-controls="wordpress" aria-selected="false">Wordpress</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button"
+                role="tab" aria-controls="work" aria-selected="false">Work</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/1.jpg" alt="item1" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/2.jpg" alt="item2" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/3.jpg" alt="item3" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/4.jpg" alt="item4" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/5.jpg" alt="item5" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/6.jpg" alt="item6" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/3.jpg" alt="item3" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/4.jpg" alt="item4" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="webdesign" role="tabpanel" aria-labelledby="webdesign-tab">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/2.jpg" alt="item2" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/3.jpg" alt="item3" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/4.jpg" alt="item4" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/5.jpg" alt="item5" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/6.jpg" alt="item6" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="wordpress" role="tabpanel" aria-labelledby="wordpress-tab">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/5.jpg" alt="item5" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/2.jpg" alt="item2" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/3.jpg" alt="item3" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/4.jpg" alt="item4" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/5.jpg" alt="item5" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="item position-relative overflow-hidden">
+                    <img src="assets/img/6.jpg" alt="item6" class="img-fluid">
+                    <div class="overlay position-absolute top-0 start-0 end-0 bottom-0 text-white transition-fast">
+                      <h2 class="overlay-title font-title text-capitalize fs-4">category item</h2>
+                      <p class="overlay-description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- End works -->
+
+    <!-- Start Blog -->
+    <section class="blog text-center" id="blog">
+      <div class="container">
+        <h2 class="blog-title text-capitalize font-title">our <span class="fw-bold">blog</span></h2>
+        <p class="blog-description text-muted mt-3 mb-5">
+          It is a long established fact that a reader will be of a page when established fact looking at its layout.
+        </p>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="blog-item text-start">
+              <img src="assets/img/blog-1.jpg" alt="blog1" class="img-fluid">
+              <h3 class="item-title font-title my-3 fs-4"><span class="text-capitalize">there</span> are many variations
+              </h3>
+              <p class="item-date text-muted text-capitalize">
+                11 march 2018 <span class="text-main fw-bolder ms-2">by kerri</span>
+              </p>
+              <p class="item-description text-muted">
+                Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis
+                ultricies.
+              </p>
+              <a href="#" class="text-decoration-none text-muted text-capitalize">read more ...</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="blog-item text-start">
+              <img src="assets/img/blog-2.jpg" alt="blog2" class="img-fluid">
+              <h3 class="item-title font-title my-3 fs-4"><span class="text-capitalize">there</span> are many variations
+              </h3>
+              <p class="item-date text-muted text-capitalize">
+                11 march 2018 <span class="text-main fw-bolder ms-2">by kerri</span>
+              </p>
+              <p class="item-description text-muted">
+                Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis
+                ultricies.
+              </p>
+              <a href="#" class="text-decoration-none text-muted text-capitalize">read more ...</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="blog-item text-start">
+              <img src="assets/img/blog-3.jpg" alt="blog3" class="img-fluid">
+              <h3 class="item-title font-title my-3 fs-4"><span class="text-capitalize">there</span> are many variations
+              </h3>
+              <p class="item-date text-muted text-capitalize">
+                11 march 2018 <span class="text-main fw-bolder ms-2">by kerri</span>
+              </p>
+              <p class="item-description text-muted">
+                Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis
+                ultricies.
+              </p>
+              <a href="#" class="text-decoration-none text-muted text-capitalize">read more ...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog -->
+
+    <!-- Start Contact -->
+    <section class="contact text-center" id="contact">
+      <div class="container">
+        <h2 class="contact-title text-capitalize font-title">contact <span class="fw-bold">us</span></h2>
+        <p class="contact-description text-muted mt-3 mb-5">
+          It is a long established fact that a reader will be of a page when established fact looking at its layout.
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-mobile-alt fa-2x text-main"></i>
+            <h3 class="font-title mt-3 text-capitalize">call us on</h3>
+            <p class="text-muted">+970593050337</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-mail-bulk fa-2x text-main"></i>
+            <h3 class="font-title mt-3 text-capitalize">email us at</h3>
+            <p class="text-muted"><span class="text-capitalize">website.kerri</span>@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-map-location-dot fa-2x text-main"></i>
+            <h3 class="font-title mt-3 text-capitalize">visit office</h3>
+            <p class="text-muted text-capitalize">202, grasselli street, conway.</p>
+          </div>
+        </div>
+        <form action="" method="post" class="mt-5">
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control p-2" placeholder="Your name..." aria-label="Your name...">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control p-2" placeholder="Your email..." aria-label="Your email...">
+            </div>
+            <div class="col-md-12 mt-3">
+              <input type="text" class="form-control p-2" placeholder="Your Subject..." aria-label="Your subject...">
+            </div>
+            <div class="col-md-12 mt-3">
+              <textarea class="form-control p-2" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Your Message...">
+              </textarea>
+            </div>
+            <div class="col-md-12 mt-3">
+              <input type="submit" class="btn btn-main d-block ms-auto text-capitalize text-white" value="send message">
+              </input>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Contacts -->
+  </main>
+  <!-- Start footer -->
+  <footer class="bg-dark text-center py-5">
+    <div class="conainer">
+      <ul class="list-inline mt-3">
+        <li class="list-inline-item rounded-circle bg-secondary">
+          <a href="#" class="text-decoration-none transition-fast">
+            <i class="fa-brands fa-facebook-f mx-2"></i>
+          </a>
+        </li>
+        <li class="list-inline-item rounded-circle bg-secondary">
+          <a href="#" class="text-decoration-none transition-fast">
+            <i class="fa-brands fa-youtube mx-2"></i>
+          </a>
+        </li>
+        <li class="list-inline-item rounded-circle bg-secondary">
+          <a href="#" class="text-decoration-none transition-fast">
+            <i class="fa-brands fa-github mx-2"></i>
+          </a>
+        </li>
+        <li class="list-inline-item rounded-circle bg-secondary">
+          <a href="#" class="text-decoration-none transition-fast">
+            <i class="fa-brands fa-instagram mx-2"></i>
+          </a>
+        </li>
+        <li class="list-inline-item rounded-circle bg-secondary">
+          <a href="#" class="text-decoration-none transition-fast">
+            <i class="fa-brands fa-google mx-2"></i>
+          </a>
+        </li>
+      </ul>
+      <p>2018 - 2021 &copy; Kerri. Design by SRBThemes.</p>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+  <!-- BootStrap 5 JS bundle -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Typedjs library CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- JS external custom file -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
